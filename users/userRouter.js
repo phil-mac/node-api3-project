@@ -75,7 +75,7 @@ router.put('/:id', validateUserId, validateUser, (req, res) => {
     })
 });
 
-//custom middleware
+//custom middleware 
 
 function validateUserId(req, res, next) {
   const id = req.params.id;
